@@ -58,8 +58,9 @@ interface = gr.Interface(
     inputs="text",
     outputs="text",
     title="AgricChatBot",
+     allow_flagging="never",  # This disables the flagging feature
     description="Welcome to **AgricChatBot**, your trusted assistant for agriculture inquiries, specializing in crops. Created by Group Two **Joseph, Wamunyima, and Obed**, we provide expert advice on **planting, pest control, and harvesting**. Ask us your questions — we’re here to support your farming success!!",
-    css="style.css"
+    css="style.css"   
 )
 
 # Launch the Gradio app
